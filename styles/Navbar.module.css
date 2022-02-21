@@ -1,3 +1,50 @@
-.container {
-  background-color: red;
+.container { display: flex; }
+.btn {
+  padding: 0.4rem 0.8rem;
+  background-color: #FFF;
+  border: 0px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
 }
+.btn:hover {
+  background-color: #e9efff;
+  border-radius: 0.4rem;
+}
+.select {}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.leftLogo {
+}
+
+.center {
+  flex: 3;
+}
+.centerList {
+  max-width: 30rem;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.centerListBtn {}
+
+.right {
+  flex: 1;
+}
+.rightMenu {}
+.rightTicket {}
+.rightTicketDesc {}
+.rightTicketImage {
+  background-image: '../public/img/gnb-banner-20210901.png';
+}
+.rightNotice {}
+.rightBtnGroup {}
+.rightSignInBtn {}
+.rightLoginBtn {}
+.rightSelectLanguage {}
+
