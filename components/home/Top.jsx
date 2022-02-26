@@ -11,7 +11,7 @@ const Top = () => {
               <div className={styles.coinSearchAreaTitle}>원칙을 지키는 가상자산 거래소 코인원</div>
               <div className={styles.status24h}>264,404,334,447 원 (24시간 거래대금)</div>
               <div className={styles.searchText}>
-                <TextField></Texteld>
+                <TextField label="Ontlined" variant="outlined"></TextField>
               </div>
               <div className={styles.help}></div>
             </div>
