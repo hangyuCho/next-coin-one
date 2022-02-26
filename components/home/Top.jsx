@@ -8,7 +8,10 @@ const Top = () => {
         <div className={styles.items}>
           <div className={styles.coinSearch}>
             <div className={styles.coinSearchArea}>
-              <div className={styles.coinSearchAreaTitle}>원칙을 지키는 가상자산 거래소 코인원</div>
+              <div className={styles.coinSearchAreaTitle}>
+                <p>가상자산 첫 거래 안전하게,</p>
+                <p>온리원 코인원</p>
+              </div>
               <div className={styles.status24h}>264,404,334,447 원 (24시간 거래대금)</div>
               <div className={styles.searchText}>
                 <TextField label="Ontlined" variant="outlined"></TextField>
@@ -30,15 +33,20 @@ const Top = () => {
             </div>
             <div className={styles.coinNewList}>
               <div className={styles.coinNewsCard}>
-                <div className={styles.coinNewsTime}></div>
-                <div className={styles.coinNewsDesc}></div>
+                <div className={styles.coinNewsTime}>35분전</div>
+                <div className={styles.coinNewsDesc}>아르카 CIO "똑똑한 투자자, 거래소 토큰에 투자하고 있다"</div>
               </div>
             </div>
           </div>
           <div className={styles.coinRanking}>
             <div className={styles.coinRankingTop}>
-              <div className={styles.coinRankingTopTitle}></div>
-              <div className={styles.coinRankingTopMore}></div>
+              <div className={styles.coinRankingTopTitle}>
+                <div>logo</div>
+                <div>가상자산 랭킹 top7</div>
+              </div>
+              <div className={styles.coinRankingTopMore}>
+    <span>더 보러가기</span>
+              </div>
             </div>
             <div className={styles.coinRankingGrid}>
               <div className={styles.row}>
