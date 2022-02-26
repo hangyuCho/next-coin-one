@@ -1,3 +1,58 @@
 .container {
-  background-color: blue;
+  padding: 3rem 5rem;
+  background-color: #f9f9f9;
 }
+.btn {
+  padding: 0.4rem 0.8rem;
+  background-color: #FFF;
+  border: 0px;
+  font-size: 1.1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #e9efff;
+  border-radius: 0.4rem;
+}
+.text {
+  font-size: .76rem;
+  font-weight: 300;
+  color: #878d93;
+}
+.title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #585858;
+}
+.row { 
+  display: flex;
+  justify-content: space-between;
+}
+.left { }
+.leftTop { }
+.leftBottom { }
+.right { display: flex; }
+.rightItem {
+  padding: 0rem 2rem;
+}
+.rightList {
+  color: #878d93;
+  list-style-type: none;
+  padding: 0;
+  font-size: .9rem;
+  font-weight: 400;
+}
+.rightList li {
+  padding: 0.4rem 0rem;
+}
+.apiBtn {
+    font-size: .8rem;
+    font-weight: 400;
+    color: #878d93;
+    border: 1px solid #abc;
+    border-radius: 0.2rem;
+    padding: 0.24rem 1.76rem;
+}
+.snsBtnGroup { }
+

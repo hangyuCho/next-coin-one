@@ -4,7 +4,8 @@
   background-color: #FFF;
   border: 0px;
   font-size: 1.1rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 600;
   cursor: pointer;
 }
 .btn:hover {
@@ -19,10 +20,12 @@
   align-items: center;
 }
 .leftLogo {
+  padding: 1rem;
 }
 
 .center {
   flex: 3;
+  justify-content: center;
 }
 .centerList {
   max-width: 30rem;
@@ -34,17 +37,42 @@
 .centerListBtn {}
 
 .right {
+  display: flex;
+  align-items: center;
   flex: 1;
 }
-.rightMenu {}
-.rightTicket {}
-.rightTicketDesc {}
-.rightTicketImage {
-  background-image: '../public/img/gnb-banner-20210901.png';
+.rightMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.rightNotice {}
-.rightBtnGroup {}
-.rightSignInBtn {}
+.rightTicket {}
+.rightTicketImageLager {
+  width: 16rem;
+}
+.rightTicketImageSmall {
+  display: none !important;
+}
+.rightNotice {
+  margin: 0.8rem;
+}
+.rightBtnGroup {
+  display: flex;
+  width: 8rem;
+  margin: 0.8rem 0.4rem 0.8rem 0rem;
+  justify-content: space-between;
+}
+.rightSignInBtn,.rightLoginBtn {
+    font-size: .8rem;
+    font-weight: 400;
+    color: #878d93;
+    border: 1px solid #abc;
+    border-radius: 0.2rem;
+    padding: 0.14rem 0.46rem;
+}
 .rightLoginBtn {}
-.rightSelectLanguage {}
+.rightSelectLanguage {
+  border: 0;
+  color: #878d93;
+}
 

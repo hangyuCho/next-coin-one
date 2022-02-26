@@ -3,6 +3,7 @@ import Image from "next/image"
 import LogoImage from "../public/img/coinone_logo_blue.svg"
 import ticketImageLager from "../public/img/gnb-banner-20210901.png"
 import ticketImageSmall from "../public/img/gnb-banner-icon-20210901.png"
+import CampaignOutlinedIcon from '@mui/icons-material/CampaignOutlined';
 
 const Navbar = () => {
   return (
@@ -25,17 +26,23 @@ const Navbar = () => {
       <div className={styles.right}>
         <div className={styles.rightMenu}>
           <div className={styles.rightTicket}>
-            <Image src={ticketImageLager} alt=""/>
-            <Image src={ticketImageSmall} alt=""/>
+            <div className={styles.rightTicketImageLager}>
+              <Image src={ticketImageLager} alt=""/>
+            </div>
+            <div className={styles.rightTicketImageSmall}>
+              <Image src={ticketImageSmall} alt=""/>
+            </div>
           </div>
-          <div className={styles.rightNotice}>Notice</div>
+          <div className={styles.rightNotice}>
+            <CampaignOutlinedIcon/>
+          </div>
           <div className={styles.rightBtnGroup}>
             <button className={[styles.btn, styles.rightSignInBtn].join(" ")}>회원가입</button>
             <button className={[styles.btn, styles.rightLoginBtn].join(" ")}>로그인</button>
-            <select className={[styles.select, styles.rightSelectLanguage].join(" ")}>
-              <option>KR</option>
-            </select>
           </div>
+          <select className={[styles.select, styles.rightSelectLanguage].join(" ")}>
+            <option>KR</option>
+          </select>
         </div>
       </div>
     </div>
