@@ -45,26 +45,22 @@ const Top = () => {
                 <div>가상자산 랭킹 top7</div>
               </div>
               <div className={styles.coinRankingTopMore}>
-    <span>더 보러가기</span>
+                <span>더 보러가기</span>
               </div>
             </div>
-            <div className={styles.coinRankingGrid}>
-              <div className={styles.row}>
-                <div className={styles.col}>
-                  <div className={styles.coinRankingLogo}></div>
-                  <div className={styles.coinRankingCoinAlias}></div>
-                  <div className={styles.coinRankingCoinName}></div>
-                </div>
-                <div className={styles.col}>
-                  <div className={styles.price}></div>
-                </div>
-                <div className={styles.col}>
-                  <div className={styles.percent}></div>
-                </div>
-                <div className={styles.col}>
-                  <div className={styles.trade}></div>
-                </div>
-              </div>
+            <div className={styles.coinRankingTable}>
+              <table>
+                <thead>
+                  <tr>
+                    <th>th</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>td</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
