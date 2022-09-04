@@ -1,3 +1,18 @@
 .container {
   height: 75vh;
 }
+.container > .top { }
+
+.container > .top > .items { }
+
+.container > .top > .items > .coinSearch { }
+.container > .top > .items > .coinSearch > .coinSearchArea { }
+.container > .top > .items > .coinSearch > .coinSearchArea > .coinSearchAreaTitle { }
+.container > .top > .items > .coinSearch > .coinSearchArea > .status24h { }
+.container > .top > .items > .coinSearch > .coinSearchArea > .searchText { }
+.container > .top > .items > .coinSearch > .coinSearchArea > .help { }
+
+.container > .top > .items > .coinNews { }
+.container > .top > .items > .coinNews > .coinNewsTop { }
+.container > .top > .items > .coinNews > .coinNewsTop > .coinNewsDate { }
+.container > .top > .items > .coinNews > .coinNewsTop > .coinNewsBtnGroup { }
